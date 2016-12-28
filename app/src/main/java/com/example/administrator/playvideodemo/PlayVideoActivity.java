@@ -65,6 +65,7 @@ public class PlayVideoActivity extends AppCompatActivity implements
     //初始化控件
     private void initView() {
         mVideoView = (VideoView) findViewById(R.id.buffer);
+        mVideoView.setBufferSize(512 * 1024);
         mMediaController = new MediaController(this);
         mCustomMediaController = new CustomMediaController(this, mVideoView, this);
         mCustomMediaController.setVideoName(video_name);
