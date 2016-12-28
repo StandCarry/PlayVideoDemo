@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/local_video"
+            android:icon="@drawable/local_video"
+            android:title="本地视频"/>
+
+        <item
+            android:id="@+id/internet_video"
+            android:icon="@drawable/internet_video"
+            android:title="网络视频"/>
+
+        <item
+            android:id="@+id/call_phone"
+            android:icon="@drawable/call_phone"
+            android:title="联系我们"/>
+
+        <item
+            android:id="@+id/personal_center"
+            android:icon="@drawable/personal"
+            android:title="个人中心"/>
+
+    </group>
+</menu>
