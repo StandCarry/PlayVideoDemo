@@ -31,14 +31,20 @@
 
 
 
-        <ListView
+        <GridView
             android:id="@+id/list_video_view"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:gravity="center"
+            android:horizontalSpacing="4dip"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="4dip"
+            android:layout_margin="5dp"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             >
 
-        </ListView>
+        </GridView>
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab"

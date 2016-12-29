@@ -6,13 +6,36 @@
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     app:cardCornerRadius="4dp">
-    <TextView
-        android:layout_margin="16dp"
-        android:id="@+id/tv_video_name"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:maxLines="1"
-        android:textSize="18sp"/>
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/im_video_thumnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            />
+
+
+        <TextView
+
+            android:id="@+id/tv_video_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:maxLines="1"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+
 </android.support.v7.widget.CardView>
 
 
